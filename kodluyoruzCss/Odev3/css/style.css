@@ -1,0 +1,229 @@
+/* top menu */
+.header {
+  list-style-type: none;
+  margin: 20px;
+  overflow: hidden; 
+  margin-right: 16px;
+  font-family: Arial, Helvetica, sans-serif;  
+  font-size: 13px;
+  display: flex;
+}
+
+/* .headerli class is used to  control and organize all the menu links */
+.headerli a {
+  display: inline block;
+  color: black;
+  padding: 5px 5px;
+  margin : 8px;
+  text-decoration: none;
+}
+
+/* nth-child() The element is fixed to right after the second child */
+.headerli:nth-child(2) {
+  margin-right: auto; 
+}
+
+.headerli a:hover {
+  text-decoration: underline;
+}
+
+/* Google logo */
+.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 75px;
+}
+
+/* İnput area */
+.search-area {
+  background: #fff;
+  display: flex;
+  border: 1px solid #dfe1e5;
+  z-index: 3;
+  height: 44px;
+  margin: 0 auto;
+  margin-top: 10px;
+  width: 582px;
+  border-radius: 50px;
+}
+
+.search-area:hover {
+box-shadow: 0 2px 3px 0 rgba(0,0,0,0.24), 0 2px 5px 0 rgba(0,0,0,0.19);
+}
+
+.search {
+  flex: 1;
+  display: flex;
+  padding: 5px 8px 0 16px;
+  padding-left: 14px;
+}
+
+/* Search img */
+.search-img {
+  display: flex;
+  align-items: center;
+}
+
+/* Search img frame */
+.search-img span {
+  color: #9aa0a6;
+  height: 20px;
+  width: 20px;
+  margin-top: 0px;
+  display: inline-block;
+  fill: currentColor;
+  line-height: 24px;
+  position: relative;
+}
+
+/* microphone icon */
+.mic {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+/* microphone Size */
+.mic img {
+  width: 20px;
+  height: 20px;
+}
+
+/* Text input area */
+.input-enter {
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+  border-radius: 24px;
+}
+
+.input-area {
+  color: transparent;
+  flex: 100%;
+  white-space: pre;
+  font: 16px arial, sans-serif;
+  line-height: 34px;
+  height: 34px !important;
+  display: block;
+  border-radius: 0px;
+}
+
+.input {
+  margin: 0;
+  padding: 0;
+  color: rgba(6, 1, 1, 0.87);
+  word-wrap: break-word;
+  outline: none;
+  display: flex; 
+  flex: 100%;
+  margin-top: -68px; 
+  font: 16px arial, sans-serif; 
+  line-height: 34px;
+  height: 34px !important;
+  text-rendering: auto;
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  text-align: start;
+  appearance: textfield;
+  cursor: text;
+  width: 480px;
+  border: #f2f2f2;
+  border-radius: 0px;
+}
+
+/* Button */
+.button { 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.googlesearch {
+  margin: 30px auto auto;
+  padding: 0 16px;
+  line-height: 14px;
+  min-width: 54px;
+  height: 36px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+  color: #5f6368;
+  border: 1px solid #f2f2f2;
+  height: 36px;
+  box-shadow: 0 2px 3px 0 rgba(0,0,0,0.24), 0 2px 5px 0 rgba(0,0,0,0.19);
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 10px;
+}
+
+.feelinglucky {
+  padding: 0 16px;
+  height: 36px;
+  line-height: 14px;
+  border: 1px solid #f2f2f2;
+  border-radius: 10px;
+  box-shadow: 0 2px 3px 0 rgba(0,0,0,0.24), 0 2px 5px 0 rgba(0,0,0,0.19);
+  color: #5f6368;
+  font-family: Arial, Helvetica, sans-serif;
+  min-width: 54px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+}
+
+.signin {
+  padding: 0 16px;
+  background-color: rgb(79, 146, 240);
+  height: 25px;
+  line-height: 25px;
+  border: 1px solid #f2f2f2;
+  min-width: 54px;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 10px;
+  box-shadow: 0 2px 3px 0 rgba(0,0,0,0.24), 0 2px 5px 0 rgba(0,0,0,0.19);
+  color: white;
+  border: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Footer links */
+.footer {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid #dfe1e5;
+  border-top: 1px solid #dadce0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  margin-left: -8px;
+  line-height: 10px;
+  background-color: #f2f2f2;
+  list-style: none;
+}
+
+.footerli {
+  float: left;
+}
+
+.footerli a {
+  display: block;
+  color: #70757a;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: arial, sans-serif;
+  font-size: 14px;
+  margin-left: 14px;
+  margin-right: -20px;
+}
+
+.footerli a:hover {
+  text-decoration: underline;
+}
